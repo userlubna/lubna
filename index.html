@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio personnel de Loubna Jabbour, étudiante en informatique en première année.">
+  <meta name="theme-color" content="#17131b">
+  <title>Loubna Jabbour — Étudiante en informatique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="brand" href="#accueil" aria-label="Loubna Jabbour, accueil"><span class="brand-mark">LJ</span><span>Loubna <b>Jabbour</b></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#accueil" class="active">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#formation">Formation</a>
+        <a href="#projet">Projet</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <section class="hero container" id="accueil">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Bienvenue sur mon portfolio</p>
+        <h1>Bonjour, je suis<br><span>Loubna Jabbour</span></h1>
+        <p class="hero-role">Étudiante en informatique <span aria-hidden="true">·</span> 1ère année</p>
+        <p class="hero-description">Curieuse et motivée, je découvre l’univers de l’informatique et j’avance pas à pas dans mon parcours d’apprentissage.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#apropos">Découvrir mon profil <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#contact">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-glow"></div>
+        <img class="portrait" src="assets/avatar-loubna.jpg" alt="Avatar illustré de Loubna" onerror="this.onerror=null;this.src='assets/avatar-loubna.svg'">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <span class="float-chip chip-code" aria-hidden="true">&lt;/&gt;</span>
+        <span class="float-chip chip-star" aria-hidden="true">✦</span>
+      </div>
+      <a class="scroll-cue" href="#apropos" aria-label="Défiler vers la section À propos"><span></span></a>
+    </section>
+
+    <section class="section container" id="apropos">
+      <div class="section-heading">
+        <p class="eyebrow">Qui suis-je ?</p>
+        <h2>À propos de <span>moi</span></h2>
+      </div>
+      <div class="about-card panel reveal">
+        <div class="about-icon" aria-hidden="true">✧</div>
+        <div>
+          <h3>En chemin dans le monde du numérique</h3>
+          <p>Je m’appelle Loubna Jabbour et je suis étudiante en première année d’informatique. Je suis au début de mon parcours et j’ai envie de découvrir les technologies, de développer mes connaissances et de progresser à travers mes études et mes projets.</p>
+          <p class="muted">Cette page évoluera au fil de mes apprentissages et de mes prochaines réalisations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="formation">
+      <div class="section-heading">
+        <p class="eyebrow">Mon parcours</p>
+        <h2>Ma <span>formation</span></h2>
+      </div>
+      <article class="education-card panel reveal">
+        <div class="education-symbol" aria-hidden="true">✦</div>
+        <div class="education-content">
+          <span class="tag">En cours</span>
+          <h3>Informatique</h3>
+          <p class="education-level">Première année</p>
+          <p class="muted">Début de parcours académique — apprentissage en cours.</p>
+        </div>
+        <div class="education-decoration" aria-hidden="true">01</div>
+      </article>
+    </section>
+
+    <section class="section container" id="projet">
+      <div class="section-heading">
+        <p class="eyebrow">Ce que j’ai réalisé</p>
+        <h2>Mon <span>projet</span></h2>
+      </div>
+      <article class="project-card panel reveal">
+        <div class="project-art" aria-hidden="true">
+          <div class="server server-a"><i></i><i></i><i></i></div>
+          <div class="server server-b"><i></i><i></i><i></i></div>
+          <div class="server server-c"><i></i><i></i><i></i></div>
+          <div class="project-ring"></div>
+        </div>
+        <div class="project-content">
+          <span class="tag">Projet scolaire</span>
+          <h3>Présentation sur les Data Centers</h3>
+          <p>Une présentation scolaire consacrée aux Data Centers, dans le cadre de mon parcours en informatique.</p>
+          <p class="muted">Projet de présentation — aucune démonstration en ligne n’est disponible pour le moment.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-card panel reveal">
+        <div>
+          <p class="eyebrow">Restons en contact</p>
+          <h2>Un message ? <span>Écrivez-moi.</span></h2>
+          <p class="muted">Pour toute question ou prise de contact, vous pouvez m’envoyer un e-mail.</p>
+        </div>
+        <a class="button button-primary email-button" href="mailto:loubnajabbour58@gmail.com">
+          <span aria-hidden="true">✉</span> loubnajabbour58@gmail.com
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#accueil"><span class="brand-mark">LJ</span><span>Loubna <b>Jabbour</b></span></a>
+      <p>Apprendre, découvrir et progresser.</p>
+      <a href="mailto:loubnajabbour58@gmail.com">Me contacter ↗</a>
+      <small>© <span id="year"></span> Loubna Jabbour. Tous droits réservés.</small>
+    </div>
+  </footer>
+</body>
+</html>
